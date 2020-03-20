@@ -1,0 +1,153 @@
+.my-custom-scrollbar {
+position: relative;
+height: 1000px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+#memeImage{
+    
+    display:flex;
+    flex-shrink: 0;
+    flex-flow: row wrap;
+    justify-content: space-between;
+align-items: flex-end;
+}
+
+.card{
+    width:500px;
+    display:flex;
+    margin-top:3rem;
+}
+
+.container{
+    flex-shrink: 0;
+flex-flow: row wrap;
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+
+#memeContainer{
+    background-color: #121F1F;
+}
+
+.body{
+    background-color: #191A1A;
+}
+
+
+
+.left{
+    background:linear-gradient(160deg,#7b4397 0%, #dc2430 100%);
+    padding: 1em;
+    /*border-radius: 25px 25px 0px 0px;*/
+    z-index:-1;
+}
+
+h1, h2, span{
+    color:white;
+}
+
+#mapid { 
+    position:relative;
+    height: 400px; 
+    width:100%;
+    margin-top:-10px;
+
+}
+
+#defaultCanvas0{
+    width:0px;
+    height:0px;
+}
+
+#weatherComparisonContainer {
+    position: relative;
+    margin: auto auto; 
+    float: none; 
+     /* Added */
+}
+
+#chart{
+    position:relative;
+    height: 100%; 
+    width:100%;
+    background-color: #343a40;
+}
+.myChart{
+    position:relative;
+    height:100%;
+}
+
+#mapid{
+    margin-top:0px;
+    width:100%;
+    height:400px;
+    border-radius: 0 0 20 20;
+}
+
+.table{
+    margin-bottom: 0rem !important;
+    text-align:left !important;
+}
+
+.table th {
+    text-align: center; 
+ }
+
+.table-dark {
+   text-align: center!important; 
+}
+
+#naamstadF{
+    text-align: left;
+    width:140px !important;
+}
+
+#naamstad{
+    text-align: left;
+    width:100px !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+
+blockquote {
+	font-weight: 100;
+	font-size: 2rem;
+	max-width: 600px;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding: .5rem;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: -5rem;
+	top: -2rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -5rem;
+	bottom: 1rem;
+}
+
+cite {
+	line-height: 3;
+	text-align: left;
+}
