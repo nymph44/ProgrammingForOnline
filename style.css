@@ -1,0 +1,33 @@
+.my-custom-scrollbar {
+position: relative;
+height: 1000px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+#memeImage{
+    
+    display:flex;
+    flex-shrink: 0;
+    flex-flow: row wrap;
+    justify-content: space-between;
+align-items: flex-end;
+}
+
+.card{
+    width:500px;
+    display:flex;
+}
+
+.container{
+    flex-shrink: 0;
+flex-flow: row wrap;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+#memeContainer{
+    background-color: #121F1F;
+}
